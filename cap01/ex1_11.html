@@ -1,0 +1,25 @@
+<script>
+// Elaborar um programa para uma loja, o qual leia o preço de um produto e
+// informe as opções de pagamento da loja. Calcule e informe o valor para
+// pagamento à vista com 10% de desconto e o valor em 3x.
+
+let totalAccount = prompt("Digite o total da conta:")
+let inCash = totalAccount - (totalAccount*0.1)
+let divided3x =0
+
+let choice = prompt("1 - Deseja pagar a vista? Digite 1 / 2 - Deseja pagar dividido em 3x? Digite 2 ")
+
+if(choice == 1){
+    alert("O valor da compra é " + inCash.toFixed(2))
+}else if(choice == 2){
+    divided3x = totalAccount / 3
+    alert("O valor da parcela é " + divided3x.toFixed(2))
+}else{
+    alert("Houve um erro, tente novamente")
+}
+
+
+
+
+
+</script>
