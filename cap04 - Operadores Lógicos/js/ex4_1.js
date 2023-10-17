@@ -19,7 +19,7 @@ frm.addEventListener("submit", (e) => {
     // condição simples
     if (media >= 7 ){
         // altera o texto e o estilo da cor do elemento resp2
-        resp2.innerText = `Parabéns ${nome}! Você foi aprovado`
+  resp2.innerText = `Parabéns ${nome}! Você foi aprovado`
         resp2.style.color = "blue"
     }
     else{
